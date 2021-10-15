@@ -1,0 +1,7 @@
+C:\Users\isi.751FJW2\source\repos\Solution\FavtoryWithBuilder\bin\Debug\FavtoryWithBuilder.exe.config
+C:\Users\isi.751FJW2\source\repos\Solution\FavtoryWithBuilder\bin\Debug\FavtoryWithBuilder.exe
+C:\Users\isi.751FJW2\source\repos\Solution\FavtoryWithBuilder\bin\Debug\FavtoryWithBuilder.pdb
+C:\Users\isi.751FJW2\source\repos\Solution\FavtoryWithBuilder\obj\Debug\FavtoryWithBuilder.csproj.AssemblyReference.cache
+C:\Users\isi.751FJW2\source\repos\Solution\FavtoryWithBuilder\obj\Debug\FavtoryWithBuilder.csproj.CoreCompileInputs.cache
+C:\Users\isi.751FJW2\source\repos\Solution\FavtoryWithBuilder\obj\Debug\FavtoryWithBuilder.exe
+C:\Users\isi.751FJW2\source\repos\Solution\FavtoryWithBuilder\obj\Debug\FavtoryWithBuilder.pdb

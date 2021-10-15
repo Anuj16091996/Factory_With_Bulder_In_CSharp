@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FavtoryWithBuilder.Program" Collapsed="true">
+    <Position X="10.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FavtoryWithBuilder.AbstractFactory" Collapsed="true">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAUAAACICAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FavtoryWithBuilder.HawainDealer" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HawainDealer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FavtoryWithBuilder.VeggyDealer" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VeggyDealer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FavtoryWithBuilder.Pizza" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Pizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FavtoryWithBuilder.Sandwhich" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Sandwhich.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FavtoryWithBuilder.VeggyPizzaBuilder" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAQAAAAAIAAAAEAAAAAAAAAAQA=</HashCode>
+      <FileName>VeggyPizzaBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.VeggySandWhichBuilder" Collapsed="true">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>VeggySandWhichBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.HawainPizzaBuilder" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAQAAAAAIAAAAAAAAABAAAAAQA=</HashCode>
+      <FileName>HawainPizzaBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.HawainSandWhichBuilder" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>HawainSandWhichBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.PizzaWaitress" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAQA=</HashCode>
+      <FileName>PizzaWaitress.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pizzaBuilder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FavtoryWithBuilder.SandWhichWaitress" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>SandWhichWaitress.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sandwhichBuilder" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="FavtoryWithBuilder.SandwhichBuilder" Collapsed="true">
+    <Position X="2" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>SandwhichBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FavtoryWithBuilder.PizzaBuilder" Collapsed="true">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>PizzaBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FavtoryWithBuilder.Client" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
