@@ -9,6 +9,7 @@ namespace FavtoryWithBuilder
    public enum Client
     {
         Veggy,
-        Hawain
+        Hawain,
+        Meat    
     }
 }

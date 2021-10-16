@@ -12,7 +12,7 @@ namespace FavtoryWithBuilder
 
         private static HawainDealer hawainDealer = new HawainDealer();
 
-
+        private static MeatDealer meatDealer = new MeatDealer();
         public static AbstractFactory GetFactory(Client cl)
         {
             AbstractFactory factory = null;
@@ -26,6 +26,10 @@ namespace FavtoryWithBuilder
                 case Client.Veggy:
                     factory = veggyDealer;
                     break;
+
+                case Client.Meat:
+                    factory = meatDealer;
+                    break;
             }
 
             return factory;
@@ -33,6 +37,6 @@ namespace FavtoryWithBuilder
 
         public abstract Pizza CreatePizza();
 
-        public abstract Sandwhich CreateSandwhich();
+        public abstract Sandwhich CreateSandwhich(string type);
     }
 }

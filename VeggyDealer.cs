@@ -17,14 +17,29 @@ namespace FavtoryWithBuilder
             return waitress.GetPizza();
         }
 
-        public override Sandwhich CreateSandwhich()
+        public override Sandwhich CreateSandwhich(string type)
         {
-            SandwhichBuilder veggysadwhich= new VeggySandWhichBuilder();
-            SandWhichWaitress waitress = new SandWhichWaitress(veggysadwhich);
+            if (type == "Veggy")
+            {
 
-            waitress.ConStructSandWhich();
+                SandwhichBuilder veggysadwhich = new VeggySandWhichBuilder();
+                SandWhichWaitress waitress = new SandWhichWaitress(veggysadwhich);
 
-            return waitress.GetSandwhich();
+                waitress.ConStructSandWhich();
+
+                return waitress.GetSandwhich();
+            }
+            else
+            {
+                SandwhichBuilder healthysandwhich = new HealthSandwhichBuilder();
+                SandWhichWaitress waitress = new SandWhichWaitress(healthysandwhich);
+
+                waitress.ConStructSandWhich();
+
+                return waitress.GetSandwhich();
+            }
+
+
 
         }
     }

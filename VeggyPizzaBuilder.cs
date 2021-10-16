@@ -33,5 +33,10 @@ namespace FavtoryWithBuilder
         {
             return this.Pizza;
         }
+
+        public void Price()
+        {
+            Pizza.price =12.90;
+        }
     }
 }

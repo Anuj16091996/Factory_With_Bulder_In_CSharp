@@ -6,32 +6,27 @@ using System.Threading.Tasks;
 
 namespace FavtoryWithBuilder
 {
-    public class HawainPizzaBuilder : PizzaBuilder
+    public class MeatPizzaBuilder : PizzaBuilder
     {
         private Pizza pizza;
 
-        public HawainPizzaBuilder()
+        public MeatPizzaBuilder()
         {
-            this.pizza = new Pizza();
+            pizza = new Pizza();
         }
         public void BuildDough()
         {
-            pizza.dough = "Thin crust";
+            pizza.dough = "Pan Thin Crust";
         }
 
         public void BuildSauce()
         {
-            pizza.sauce = "Indian Butter";
+            pizza.sauce = "Chicken Sauce";
         }
 
         public void BuildTopping()
         {
-            pizza.topping = "Less Cheese And More Meat";
-        }
-
-        public void Price()
-        {
-            pizza.price = 12.97;
+            pizza.topping = "Chicken With Olives";
         }
 
         public Pizza GetPizza()
@@ -39,6 +34,9 @@ namespace FavtoryWithBuilder
             return this.pizza;
         }
 
-     
+        public void Price()
+        {
+            pizza.price = 34.90;
+        }
     }
 }

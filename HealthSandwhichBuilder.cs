@@ -1,31 +1,32 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace FavtoryWithBuilder
 {
-    public class HawainSandWhichBuilder : SandwhichBuilder
+    public class HealthSandwhichBuilder : SandwhichBuilder
     {
         private Sandwhich sandwhich;
 
-        public HawainSandWhichBuilder() 
+        public HealthSandwhichBuilder()
         {
-            this.sandwhich = new Sandwhich();
+            sandwhich = new Sandwhich();
         }
         public void BuildBread()
         {
-            this.sandwhich.Bread = "Itailian Bread";
+            sandwhich.Bread = "Protein Bread";
         }
 
         public void BuildSalade()
         {
-            this.sandwhich.salade = "Pineapple And Chichken";
+            sandwhich.salade = "Healthy Salad With Brocolli";
         }
 
         public void BuildTopping()
         {
-            this.sandwhich.topping = "Cheese And More Chesse with hawain touch";
+            sandwhich.topping = "Olives and bracolio";
         }
 
         public Sandwhich GetSandwhich()
@@ -35,7 +36,7 @@ namespace FavtoryWithBuilder
 
         public void Price()
         {
-            this.sandwhich.price = 23.98;
+            sandwhich.price = 32.90;
         }
     }
 }

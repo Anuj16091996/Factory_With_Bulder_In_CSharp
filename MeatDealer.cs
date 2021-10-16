@@ -6,23 +6,21 @@ using System.Threading.Tasks;
 
 namespace FavtoryWithBuilder
 {
-    public class HawainDealer : AbstractFactory
+    public class MeatDealer : AbstractFactory
     {
         public override Pizza CreatePizza()
         {
-            PizzaBuilder hawinpizza = new HawainPizzaBuilder();
-            PizzaWaitress waitress = new PizzaWaitress(hawinpizza);
-
+            PizzaBuilder MeatPizza = new MeatPizzaBuilder();
+            PizzaWaitress waitress = new PizzaWaitress(MeatPizza);
             waitress.ConstructPizza();
 
             return waitress.GetPizza();
-
         }
 
         public override Sandwhich CreateSandwhich(string type)
         {
-            SandwhichBuilder hawinpizza = new HawainSandWhichBuilder();
-            SandWhichWaitress waitress = new SandWhichWaitress(hawinpizza);
+            SandwhichBuilder MeatSandwhich = new MeatSandwhichBuilder();
+            SandWhichWaitress waitress = new SandWhichWaitress(MeatSandwhich);
 
             waitress.ConStructSandWhich();
 

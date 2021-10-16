@@ -33,5 +33,10 @@ namespace FavtoryWithBuilder
         {
             return this.sandwhich;
         }
+
+        public void Price()
+        {
+            sandwhich.price = 23.98;
+        }
     }
 }

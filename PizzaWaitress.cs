@@ -19,6 +19,7 @@ namespace FavtoryWithBuilder
             this.pizzaBuilder.BuildDough();
             this.pizzaBuilder.BuildSauce();
             this.pizzaBuilder.BuildTopping();
+            this.pizzaBuilder.Price();
         }
 
         public Pizza GetPizza()

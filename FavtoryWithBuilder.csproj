@@ -48,10 +48,16 @@
     <Compile Include="HawainDealer.cs" />
     <Compile Include="HawainPizzaBuilder.cs" />
     <Compile Include="HawainSandWhichBuilder.cs" />
+    <Compile Include="HealthSandwhichBuilder.cs" />
+    <Compile Include="MeatDealer.cs" />
+    <Compile Include="MeatPizzaBuilder.cs" />
+    <Compile Include="MeatSandwhichBuilder.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Pizza.cs" />
     <Compile Include="PizzaBuilder.cs" />
     <Compile Include="PizzaWaitress.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Program1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sandwhich.cs" />
     <Compile Include="SandwhichBuilder.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FavtoryWithBuilder
 {
-   public class Pizza
+   public class Pizza:Object
     {
         public string dough { get; set; }
 
@@ -14,9 +14,20 @@ namespace FavtoryWithBuilder
 
         public string topping { get; set; }
 
+        public Double price { get; set; }
+
         public void ToDisplay()
         {
-            Console.WriteLine(" Dough is {0} Sauce is {1} , Topping is {1}", this.dough, this.sauce, this.topping);
+            Console.WriteLine("Bread is {0}, Sauce is {1} , Topping is {2}" +
+                " ,Price is {3}" , this.dough, this.sauce, this.topping,this.price);
         }
+
+        public override string  ToString()
+        {
+            return string.Format("Bread is {0}, Sauce is {1} , Topping is {2}" +
+                " ,Price is {3}", this.dough, this.sauce, this.topping,Convert.ToString(this.price));
+        }
+
+       
     }
 }

@@ -14,6 +14,8 @@ namespace FavtoryWithBuilder
 
         void BuildTopping();
 
+        void Price();
+
         Pizza GetPizza();
         
             

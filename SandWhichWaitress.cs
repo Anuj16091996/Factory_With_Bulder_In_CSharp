@@ -21,6 +21,7 @@ namespace FavtoryWithBuilder
             this.sandwhichBuilder.BuildBread();
             this.sandwhichBuilder.BuildSalade();
             this.sandwhichBuilder.BuildTopping();
+            this.sandwhichBuilder.Price();
         }
 
         public Sandwhich GetSandwhich()

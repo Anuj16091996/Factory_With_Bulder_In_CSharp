@@ -1,91 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="FavtoryWithBuilder.Program" Collapsed="true">
-    <Position X="10.25" Y="3" Width="1.5" />
+    <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FavtoryWithBuilder.AbstractFactory" Collapsed="true">
-    <Position X="8.25" Y="3" Width="1.5" />
+  <Class Name="FavtoryWithBuilder.ReduceCodeOfMain" Collapsed="true">
+    <Position X="6" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAUAAACICAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FavtoryWithBuilder.AbstractFactory" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAUAIACICAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AbstractFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="FavtoryWithBuilder.MeatDealer" Collapsed="true">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeatDealer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="FavtoryWithBuilder.HawainDealer" Collapsed="true">
-    <Position X="6.5" Y="3.25" Width="1.5" />
+    <Position X="10.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HawainDealer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="FavtoryWithBuilder.VeggyDealer" Collapsed="true">
-    <Position X="6.5" Y="2" Width="1.5" />
+    <Position X="6" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>VeggyDealer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FavtoryWithBuilder.Pizza" Collapsed="true">
-    <Position X="4.75" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>QAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
-      <FileName>Pizza.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="FavtoryWithBuilder.Sandwhich" Collapsed="true">
-    <Position X="4.75" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAQAAAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAACAAAAA=</HashCode>
-      <FileName>Sandwhich.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="FavtoryWithBuilder.VeggyPizzaBuilder" Collapsed="true">
-    <Position X="0.75" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAAAAAAAAAQAAAAAIAAAAEAAAAAAAAAAQA=</HashCode>
-      <FileName>VeggyPizzaBuilder.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="FavtoryWithBuilder.VeggySandWhichBuilder" Collapsed="true">
-    <Position X="2.5" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAgAAAIAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
-      <FileName>VeggySandWhichBuilder.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="FavtoryWithBuilder.HawainPizzaBuilder" Collapsed="true">
-    <Position X="3" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAAAAAAAAAQAAAAAIAAAAAAAAABAAAAAQA=</HashCode>
-      <FileName>HawainPizzaBuilder.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="FavtoryWithBuilder.HawainSandWhichBuilder" Collapsed="true">
-    <Position X="0.5" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAgAAAIAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
-      <FileName>HawainSandWhichBuilder.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="FavtoryWithBuilder.PizzaWaitress" Collapsed="true">
-    <Position X="4.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAQA=</HashCode>
-      <FileName>PizzaWaitress.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="pizzaBuilder" />
-    </ShowAsAssociation>
-  </Class>
   <Class Name="FavtoryWithBuilder.SandWhichWaitress" Collapsed="true">
-    <Position X="4.75" Y="2" Width="1.5" />
+    <Position X="11" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
       <FileName>SandWhichWaitress.cs</FileName>
@@ -94,24 +52,90 @@
       <Field Name="sandwhichBuilder" />
     </ShowAsAssociation>
   </Class>
-  <Interface Name="FavtoryWithBuilder.SandwhichBuilder" Collapsed="true">
-    <Position X="2" Y="1" Width="1.5" />
+  <Class Name="FavtoryWithBuilder.PizzaWaitress" Collapsed="true">
+    <Position X="1" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
-      <FileName>SandwhichBuilder.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAQA=</HashCode>
+      <FileName>PizzaWaitress.cs</FileName>
     </TypeIdentifier>
-  </Interface>
-  <Interface Name="FavtoryWithBuilder.PizzaBuilder" Collapsed="true">
-    <Position X="1.25" Y="3" Width="1.5" />
+    <ShowAsAssociation>
+      <Field Name="pizzaBuilder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FavtoryWithBuilder.HawainPizzaBuilder" Collapsed="true">
+    <Position X="2" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAQA=</HashCode>
+      <HashCode>AAAAAAAAAwAAAAAAAAAQAAAAAIAAAAAAAAABAAAAAQA=</HashCode>
+      <FileName>HawainPizzaBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.MeatPizzaBuilder" Collapsed="true">
+    <Position X="3.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAAAAAAQAAAAAIAAAAAAAAABAAAAAQA=</HashCode>
+      <FileName>MeatPizzaBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.VeggyPizzaBuilder" Collapsed="true">
+    <Position X="5.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAAAAAAQAAAAAIAAAAEAAAAAAAAAAQA=</HashCode>
+      <FileName>VeggyPizzaBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.HawainSandWhichBuilder" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAQAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>HawainSandWhichBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.MeatSandwhichBuilder" Collapsed="true">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAQAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>MeatSandwhichBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.VeggySandWhichBuilder" Collapsed="true">
+    <Position X="11" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAQAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>VeggySandWhichBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FavtoryWithBuilder.HealthSandwhichBuilder" Collapsed="true">
+    <Position X="9" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAAQAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>HealthSandwhichBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="FavtoryWithBuilder.PizzaBuilder" Collapsed="true">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAQA=</HashCode>
       <FileName>PizzaBuilder.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Enum Name="FavtoryWithBuilder.Client" Collapsed="true">
-    <Position X="9.25" Y="1.75" Width="1.5" />
+  <Interface Name="FavtoryWithBuilder.SandwhichBuilder" Collapsed="true">
+    <Position X="8.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAIAAQAAAAAAAAAAAAAAAIAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>SandwhichBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FavtoryWithBuilder.Client" Collapsed="true">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
       <FileName>Client.cs</FileName>
     </TypeIdentifier>
   </Enum>
